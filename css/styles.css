@@ -1,0 +1,303 @@
+/* #region base style */
+
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
+  margin: 0;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+body {
+color: #2e2f42;
+font-family: "Roboto", sans-serif; 
+background-color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #2e2f42; 
+}
+a:hover,
+a:active {
+    color: #404bbf;
+}
+p {  
+}
+h1 {
+font: 700 56px / 1.07 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+
+}
+h2 {
+font: 700 36px / 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;    
+}
+h3 {
+font: 500 20px / 1.2;
+letter-spacing: 0.02em;
+text-align: left;
+color: #2e2f42;
+}
+.container {
+    max-width: 1158px;
+    margin: 0 auto;  
+    padding: 0 15px; 
+}
+.section-title {
+padding: 120px 0 72px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* #endregion base style */
+
+/* #region header style */
+header {
+    border-bottom: 1px solid #e7e9fc;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center ; */
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    align-items: center;;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu-list {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 40px;
+padding-left: 76px;
+}
+.nav-menu-link {
+font: 500 16px / 1.5;
+letter-spacing: 0.02em;
+padding: 24px 0;
+}
+
+/* #endregion header style */
+
+/* #region address style */
+address {
+    font-style: normal;
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #2e2f42; 
+    font-style: normal;
+}
+address:hover,
+address:active {
+    color: #404bbf;
+}
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+.address-item {
+font: 400 16px / 1.5;
+letter-spacing: 0.02em;
+color: #d9d9d9;
+align-items: center;
+padding: 24px 0;
+}
+/* #endregion address style */
+
+/* #region logo style */
+.logo {
+display: block;
+font: 700 18px / 1.17 "Raleway", sans-serif;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.logo-dark {
+color: #2e2f42;
+}
+
+.logo-light {
+color: #f4f4fd;
+}
+/* #endregion logo style */
+    
+/* #region hero style */
+.hero {
+background: #2e2f42;
+}
+
+.hero-title {
+color: #fff;
+max-width: 496px;
+width: 100%;
+margin: 0 auto;  
+padding-bottom: 48px; 
+}
+
+.btn {
+font: 500 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.04em;
+color: #fff;
+display: flex;
+align-items: center;
+/* flex-direction: row; */
+margin: 0 auto;
+padding: 16px 32px;
+/* gap: 10px; */
+
+border-radius: 4px;
+/* padding-block: 16px;
+padding-inline: 32px; */
+width: 169px;
+height: 56px;
+
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #404bbf;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #4d5ae5;
+}
+/* #endregion hero style */
+
+/* #region features style */
+section {
+    background-color: #f0f0f0;
+    padding: 120px 0;
+}
+
+.features {
+    /* display: flex; */
+}
+.features-title {
+}
+
+.features-list {
+    display: flex;
+    gap: 30px;
+}
+
+.features-heading {
+}
+
+
+/* #endregion features style */
+
+/* #region team style */
+
+.team {
+   background: #f4f4fd; 
+}
+.team-title {
+    padding: 120px 0 72px;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-img {
+    background: #f4f4fd;
+    width: 264px;
+    
+}
+
+.team-name {
+    text-align: center;
+}
+
+.team-job {
+    text-align: center;
+}
+.card-content {
+    border: 1px solid #;
+}
+
+/* #endregion team */
+
+/* #region portfolio */
+.portfolio-title {
+    padding: ;
+}
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.project-img-1 {
+}
+
+.project-text {
+}
+
+.project {
+}
+
+.project-img-3 {
+}
+
+.project-img-4 {
+}
+
+.project-img-5 {
+}
+
+.project-img-6 {
+}
+/* #endregion portfolio */
+
+/* #region footer */
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer {
+}
+
+.logo {
+}
+
+.logo-light {
+}
+
+.footer-content {
+font: 400 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
+
+/* #endregion footer */
