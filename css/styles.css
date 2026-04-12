@@ -178,10 +178,6 @@ padding: 16px 32px;
 border: none;
 
 border-radius: 4px;
-/* padding-block: 16px;
-padding-inline: 32px; */
-width: 169px;
-height: 56px;
 
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #404bbf;
@@ -223,7 +219,6 @@ background: #404bbf;
 
 .team-box {
 border-radius: 0 0 4px 4px;
-padding-block: 0px 32px;
 padding-inline: 0px;
 width: 264px;
 width: calc((100% - 72px) / 4);
@@ -252,7 +247,7 @@ background: #fff;
 }
 
 .card-content {
-    padding: 29px 16px 32px;
+    padding: 32px 16px;
 }
 /* #endregion team */
 
@@ -272,8 +267,7 @@ background: #fff;
 
 .project-box {
 display: block;
-width: 360px;
-flex-basis: calc(100% - 48px) / 3; 
+width: calc((100% - 48px) / 3); 
 }
 
 .project-content {
