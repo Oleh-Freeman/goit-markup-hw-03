@@ -80,13 +80,13 @@ color: #2e2f42;
 
 /* #region header style */
 .header {
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
     display: flex;
     justify-content: space-between;
     margin-left: auto;
-    align-items: center;
-    border-bottom: 1px solid #e7e9fc;
+    align-items: center;  
 }
 .nav-menu {
     display: flex;
@@ -175,6 +175,7 @@ align-items: center;
 /* flex-direction: row; */
 margin: 0 auto;
 padding: 16px 32px;
+border: none;
 
 border-radius: 4px;
 /* padding-block: 16px;
@@ -197,28 +198,27 @@ background: #404bbf;
 }
 
 .features-title {
+    flex-basis: calc(100% - 72px)/4;
 }
 
 .features-list {
     display: flex;
     gap: 24px;
-    width: calc(100% - 72px) / 4;
 }
 
 .features-heading {
+     margin-bottom: 8px;
 }
-
-
 /* #endregion features style */
 
 /* #region team style */
-
 .team {
    background: #f4f4fd;
    padding: 120px 0 ; 
 }
+
 .team-title {
-    padding: 120px 0 72px;
+    padding: 0 0 72px;
 }
 
 .team-box {
@@ -234,7 +234,7 @@ background: #fff;
 .team-list {
     display: flex;
     gap: 24px;
-    width: calc(100% - 72px) / 4;
+    flex-basis: calc(100% - 72px) / 4;
 }
 
 .team-img {
@@ -250,15 +250,7 @@ background: #fff;
 .team-job {
     text-align: center;
 }
-.card-content {
-border-bottom: 1px solid #e7e9fc;
-border-left: 1px solid #e7e9fc;
-border-right: 1px solid #e7e9fc;
-padding-block: 32px;
-padding-inline: 16px;
-width: 360px;
-height: 120px;
-}
+
 
 /* #endregion team */
 
@@ -273,14 +265,14 @@ height: 120px;
 .project-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-    width: calc(100% - 48px) / 3;   
+    gap: 48px 24px;  
 }
 
 .project-box {
 width: 360px;
-height: 420px; 
-margin-bottom: 48px;  
+height: 420px;
+flex-basis: calc(100% - 48px) / 3; 
+  
 }
 
 .project-content {
