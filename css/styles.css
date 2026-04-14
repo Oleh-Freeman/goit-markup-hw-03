@@ -100,21 +100,18 @@ justify-content: flex-start;
 flex-direction: row;
 gap: 40px;
 margin-left: 76px;
+padding: 24px 0;
 }
 .nav-menu-link {
 font: 500 16px / 1.5;
 letter-spacing: 0.02em;
-padding: 24px 0;
+/* padding: 24px 0 24px 0; */
 }
 
 /* #endregion header style */
 
 /* #region address style */
 address {
-    font-style: normal;
-    font: 400 16px / 1.5 "Roboto", sans-serif;
-    letter-spacing: 0.02em;
-    color: #2e2f42; 
     font-style: normal;
 }
 
@@ -123,10 +120,11 @@ address {
     gap: 40px;
 }
 .address-item {
-font: 400 16px / 1.5;
+font: 400 16px / 1.5 "Roboto", sans-serif; 
 letter-spacing: 0.02em;
 color: #2e2f42;
 align-items: center;
+padding: 24px 0;
 }
 .address-item:hover,
 .address-item:active {
@@ -143,6 +141,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 align-items: left;
+padding: 24px 0;
 }
 
 .logo-dark {
@@ -220,6 +219,7 @@ background: #404bbf;
 }
 
 .team-box {
+display: block;
 border-radius: 0 0 4px 4px;
 padding-inline: 0px;
 width: 264px;
@@ -272,6 +272,11 @@ display: block;
 width: calc((100% - 48px) / 3); 
 }
 
+.project-img {
+display: block;
+width: 100%;
+}
+
 .project-content {
 border-bottom: 1px solid #e7e9fc;
 border-left: 1px solid #e7e9fc;
@@ -286,6 +291,9 @@ padding-inline: 16px;
 }
 
 .project-text {
+font: 400 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #d9d9d9;
 }
 /* #endregion portfolio */
 
