@@ -86,7 +86,8 @@ color: #2e2f42;
     display: flex;
     justify-content: space-between;
     margin-left: auto;
-    align-items: center;  
+    align-items: center; 
+    height: 72px; 
 }
 .nav-menu {
     display: flex;
@@ -100,12 +101,11 @@ justify-content: flex-start;
 flex-direction: row;
 gap: 40px;
 margin-left: 76px;
-padding: 24px 0;
 }
 .nav-menu-link {
 font: 500 16px / 1.5;
 letter-spacing: 0.02em;
-/* padding: 24px 0 24px 0; */
+padding: 24px 0;
 }
 
 /* #endregion header style */
@@ -141,15 +141,17 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 align-items: left;
-padding: 24px 0;
+/* margin: 24px 0; */
 }
 
 .logo-dark {
 color: #2e2f42;
+margin: 24px 0;
 }
 
 .logo-light {
 color: #f4f4fd;
+margin-bottom: 16px;
 }
 /* #endregion logo style */
     
