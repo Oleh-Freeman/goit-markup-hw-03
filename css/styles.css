@@ -87,7 +87,6 @@ color: #2e2f42;
     justify-content: space-between;
     margin-left: auto;
     align-items: center; 
-    height: 72px; 
 }
 .nav-menu {
     display: flex;
@@ -103,8 +102,9 @@ gap: 40px;
 margin-left: 76px;
 }
 .nav-menu-link {
-font: 500 16px / 1.5;
+font: 500 16px / 1.5 "Roboto", sans-serif;
 letter-spacing: 0.02em;
+color: #2e2f42;
 padding: 24px 0;
 }
 
@@ -141,7 +141,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 align-items: left;
-/* margin: 24px 0; */
+padding: 24px 0 16px;
 }
 
 .logo-dark {
@@ -162,10 +162,18 @@ padding: 188px 0px;
 }
 
 .hero-title {
-color: #fff;
+/* color: #fff;
 max-width: 496px;
 width: 100%;
 margin: 0 auto;  
+margin-bottom: 48px; */
+
+font: 700 56px / 1.07 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+max-width: 496px;
+margin: 0 auto;
 margin-bottom: 48px;
 }
 
@@ -173,6 +181,7 @@ margin-bottom: 48px;
 font: 500 16px / 1.5 "Roboto", sans-serif;
 letter-spacing: 0.04em;
 color: #fff;
+
 display: flex;
 align-items: center;
 /* flex-direction: row; */
@@ -206,7 +215,16 @@ background: #404bbf;
 }
 
 .features-heading {
-     margin-bottom: 8px;
+font: 500 20px / 1.2 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #2e2f42;
+margin-bottom: 8px;
+}
+
+.features-text {
+font: 400 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+/* color: #d9d9d9; */
 }
 /* #endregion features style */
 
@@ -217,7 +235,11 @@ background: #404bbf;
 }
 
 .team-title {
-    margin-bottom: 72px;
+font: 700 36px / 1.11 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 72px;
 }
 
 .team-box {
@@ -242,12 +264,19 @@ background: #fff;
 }
 
 .team-name {
-    text-align: center;
-    margin-bottom: 8px;
+font: 500 20px / 1.2 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .team-job {
-    text-align: center;
+font: 400 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+/* color: #d9d9d9; */
+text-align: center;
 }
 
 .card-content {
@@ -261,7 +290,11 @@ background: #fff;
 }
 
 .portfolio-title {
-    margin-bottom: 72px;
+font: 700 36px / 1.11111 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 72px;
 }
 .project-list {
     display: flex;
@@ -295,7 +328,7 @@ padding-inline: 16px;
 .project-text {
 font: 400 16px / 1.5 "Roboto", sans-serif;
 letter-spacing: 0.02em;
-color: #d9d9d9;
+/* color: #d9d9d9; */
 }
 /* #endregion portfolio */
 
@@ -311,7 +344,6 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 max-width:264px;
 width: 100%;
-margin-top: 16px;
 }
 
 /* #endregion footer */
