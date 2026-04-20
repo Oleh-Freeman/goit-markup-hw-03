@@ -3,7 +3,7 @@
 ul, ol {
   list-style-type: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 p,
@@ -85,6 +85,7 @@ color: #2e2f42;
     margin-left: auto;
     align-items: center; 
 }
+
 .nav-menu {
     display: flex;
     align-items: center;
@@ -96,23 +97,53 @@ align-items: center;
 justify-content: flex-start;
 flex-direction: row;
 gap: 40px;
-margin-left: 76px;
 }
+
 .nav-menu-link {
+display: block;
 font: 500 16px / 1.5 "Roboto", sans-serif;
 letter-spacing: 0.02em;
 color: #2e2f42;
 padding: 24px 0;
 }
-
+.nav-menu-link:hover,
+.nav-menu-link:active {
+ color: #404bbf;
+}
 /* #endregion header style */
 
+/* #region logo style */
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.logo {
+display: block;
+font: 700 18px / 1.17 "Raleway", sans-serif;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+align-items: center;
+}
+
+.logo-dark {
+color: #2e2f42;
+}
+
+.logo-light {
+color: #f4f4fd;
+}
+/* #endregion logo style */
+ 
 /* #region address style */
 .address-list {
+    margin-right: auto;
     display: flex;
     gap: 40px;
 }
 .address-item {
+display: block;
 font: 400 16px / 1.5 "Roboto", sans-serif; 
 letter-spacing: 0.02em;
 color: #2e2f42;
@@ -127,26 +158,6 @@ font-style: normal;
    
 /* #endregion address style */
 
-/* #region logo style */
-.logo {
-display: block;
-font: 700 18px / 1.17 "Raleway", sans-serif;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
-align-items: center;
-}
-
-.logo-dark {
-color: #2e2f42;
-padding: 24px 0;
-}
-
-.logo-light {
-color: #f4f4fd;
-}
-/* #endregion logo style */
-    
 /* #region hero style */
 .hero {
 background: #2e2f42;
